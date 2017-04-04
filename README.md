@@ -32,14 +32,14 @@ $ git clone \
 
 The [`my-app/.templates`](.templates) dir contains some templates you can use in your final repository. You should copy them to the root of your project (excepted the `.transifexrc` file). Be careful that those files contains some _vars_ you must replace to have the files fully functional:
 
-- `<APP_NAME>`: the application name
-- `<APP_SHORT_DESCRIPTION>`: a quick app description
+- `cozy-intent-example`: the application name
+- `Basic example to show how intents works.`: a quick app description
 - `<APP_PORT>`: app running port
 - `<APP_MAINTAINER>`: Github main maintainer username (don't forget `@` :))
 - `<SLUG_TX>`: transifex app slug
-- `<SLUG_GH>`: Github repository slug
+- `cozy-intent-example`: Github repository slug
 - `<SLUG_NPM>`: NPM slug
-- `<USERNAME_GH>`: Github username
+- `gregorylegarec`: Github username
 
 Don't forget to update your LICENSE too if needed.
 
@@ -50,7 +50,7 @@ Go to https://github.com/new and create a new repository for your app. Then add 
 ```sh
 $ git remote add \
   origin \
-  https://github.com/<USERNAME_GH>/<SLUG_GH>.git
+  https://github.com/gregorylegarec/cozy-intent-example.git
 $ git add -am "Initial commit for my-app"
 $ git pull -u origin master:master
 ```

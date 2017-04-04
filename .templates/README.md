@@ -1,10 +1,10 @@
-[![Travis build status shield](https://img.shields.io/travis/cozy/<SLUG_GH>/master.svg)](https://travis-ci.org/cozy/<SLUG_GH>)
+[![Travis build status shield](https://img.shields.io/travis/cozy/cozy-intent-example/master.svg)](https://travis-ci.org/cozy/cozy-intent-example)
 [![NPM release version shield](https://img.shields.io/npm/v/<SLUG_NPM>.svg)](https://www.npmjs.com/package/<SLUG_NPM>)
-[![Github Release version shield](https://img.shields.io/github/tag/cozy/<SLUG_GH>.svg)](https://github.com/cozy/<SLUG_GH>/releases)
-[![NPM Licence shield](https://img.shields.io/npm/l/<SLUG_NPM>.svg)](https://github.com/cozy/<SLUG_GH>/blob/master/LICENSE)
+[![Github Release version shield](https://img.shields.io/github/tag/cozy/cozy-intent-example.svg)](https://github.com/cozy/cozy-intent-example/releases)
+[![NPM Licence shield](https://img.shields.io/npm/l/<SLUG_NPM>.svg)](https://github.com/cozy/cozy-intent-example/blob/master/LICENSE)
 
 
-[Cozy] <APP_NAME>
+[Cozy] cozy-intent-example
 =======================
 
 
@@ -16,10 +16,10 @@ What's Cozy?
 [Cozy] is a platform that brings all your web services in the same private space.  With it, your webapps and your devices can share data easily, providing you with a new experience. You can install Cozy on your own hardware where no one's tracking you.
 
 
-What's Cozy <APP_NAME>?
+What's Cozy cozy-intent-example?
 -----------------------
 
-<APP_SHORT_DESCRIPTION>
+Basic example to show how intents works.
 
 
 Hack
@@ -29,13 +29,13 @@ _:pushpin: Note:_ we recommend to use [Yarn] instead of NPM for package manageme
 
 ### Install and run in dev mode
 
-Hacking the Cozy <APP_NAME> app requires you to [setup a dev environment][setup].
+Hacking the Cozy cozy-intent-example app requires you to [setup a dev environment][setup].
 
 You can then clone the app repository and install dependencies:
 
 ```sh
-$ git clone https://github.com/cozy/<SLUG_GH>.git
-$ cd <SLUG_GH>
+$ git clone https://github.com/cozy/cozy-intent-example.git
+$ cd cozy-intent-example
 $ yarn install
 ```
 
@@ -44,7 +44,7 @@ $ yarn install
 Cozy's apps use a standard set of _npm scripts_ to run common tasks. You can so start you development workflow with:
 
 ```sh
-$ cd <SLUG_GH>
+$ cd cozy-intent-example
 $ yarn run watch
 ```
 
@@ -64,7 +64,7 @@ yarn link
 then go back to your app project and replace the distributed cozy-ui module with the linked one:
 
 ```sh
-cd <SLUG_GH>
+cd cozy-intent-example
 yarn link cozy-ui
 ```
 
@@ -77,13 +77,13 @@ You can easily view your current running app in your VM, use [cozy-dev]:
 
 ```sh
 # in a terminal, run your app in watch mode
-$ cd <SLUG_GH>
+$ cd cozy-intent-example
 $ yarn run watch
 ```
 
 ```sh
 # in another terminal, install cozy-dev (first time) and run the deploy
-$ cd <SLUG_GH>
+$ cd cozy-intent-example
 $ yarn global install cozy-dev
 $ cozy-dev deploy <APP_PORT>
 ```
@@ -96,7 +96,7 @@ your app is available in your vm dashboard at http://localhost:9104.
 Tests are run by [mocha] under the hood, and written using [chai] and [sinon]. You can easily run the tests suite with:
 
 ```sh
-$ cd <SLUG_GH>
+$ cd cozy-intent-example
 $ yarn test
 ```
 
@@ -124,7 +124,7 @@ Feel free to read it and fix / update it if needed, all comments and feedback to
 
 ### Open a Pull-Request
 
-If you want to work on Cozy <APP_NAME> and submit code modifications, feel free to open pull-requests! See the [contributing guide][contribute] for more information about how to properly open pull-requests.
+If you want to work on Cozy cozy-intent-example and submit code modifications, feel free to open pull-requests! See the [contributing guide][contribute] for more information about how to properly open pull-requests.
 
 
 Community
@@ -141,7 +141,7 @@ As a _developer_, you must [configure the transifex client][tx-client], and clai
 
 ### Maintainer
 
-The lead maintainer for Cozy <APP_NAME> is [<APP_MAINTAINER>](https://github.com/<APP_MAINTAINER>), send him/her a :beers: to say hello!
+The lead maintainer for Cozy cozy-intent-example is [<APP_MAINTAINER>](https://github.com/<APP_MAINTAINER>), send him/her a :beers: to say hello!
 
 
 ### Get in touch
@@ -157,7 +157,7 @@ You can reach the Cozy Community by:
 License
 -------
 
-Cozy <APP_NAME> is developed by Cozy Cloud and distributed under the [AGPL v3 license][agpl-3.0].
+Cozy cozy-intent-example is developed by Cozy Cloud and distributed under the [AGPL v3 license][agpl-3.0].
 
 
 
