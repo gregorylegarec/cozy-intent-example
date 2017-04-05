@@ -1,0 +1,39 @@
+{
+  "name": "cozy-intent-example",
+  "slug": "cozy-intent-example",
+  "icon": "icon.svg",
+  "description": "Basic example to show how intents works.",
+  "version": "3.0.0",
+  "licence": "AGPL-3.0",
+  "source": "https://github.com/gregorylegarec/cozy-intent-example.git@build",
+  "developer": {
+    "name": "Cozy",
+    "url": "https://cozy.io"
+  },
+  "default_locale": "en",
+  "locales": {},
+  "routes": {
+    "/": {
+      "folder": "/",
+      "index": "index.html",
+      "public": true
+    },
+    "/pick": {
+      "folder": "/",
+      "index": "pickfile.html",
+      "public": true
+    }
+  },
+  "permissions": {
+    "apps": {
+      "description": "Required by the cozy-bar to display the icons of the apps",
+      "type": "io.cozy.apps",
+      "verbs": ["GET"]
+    }
+  },
+  "intents": [{
+    "action": "PICK",
+    "type": ["io.cozy.files"],
+    "href": "/pick"
+  }]
+}
