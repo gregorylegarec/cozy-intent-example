@@ -16,7 +16,12 @@
     "/": {
       "folder": "/",
       "index": "index.html",
-      "public": false
+      "public": true
+    },
+    "/pick": {
+      "folder": "/",
+      "index": "pickfile.html",
+      "public": true
     }
   },
   "permissions": {

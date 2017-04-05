@@ -52,6 +52,15 @@ module.exports = {
         collapseWhitespace: true
       }
     }),
+    new HtmlWebpackPlugin({
+      template: path.resolve(__dirname, '../src/pickfile.ejs'),
+      filename: 'pickfile.html',
+      title: 'PICKFILE',
+      inject: 'head',
+      minify: {
+        collapseWhitespace: true
+      }
+    }),
     new ScriptExtHtmlWebpackPlugin({
       defaultAttribute: 'defer'
     }),
