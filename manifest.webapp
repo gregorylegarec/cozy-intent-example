@@ -30,5 +30,10 @@
       "type": "io.cozy.apps",
       "verbs": ["GET"]
     }
-  }
+  },
+  "intents": [{
+    "action": "PICK",
+    "type": ["io.cozy.files"],
+    "href": "/pick"
+  }]
 }
